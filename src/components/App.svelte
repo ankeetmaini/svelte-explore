@@ -5,6 +5,8 @@
   import Image from "./Image.svelte";
   import Counter from "./Counter.svelte";
   import ConditionalMarkup from "./ConditionalMarkup.svelte";
+  import List from "./List.svelte";
+  import FetchCall from "./FetchCall.svelte";
 
   export let name;
 </script>
@@ -35,4 +37,12 @@
 
 <Boundary name="ConditionalMarkup">
   <ConditionalMarkup />
+</Boundary>
+
+<Boundary name="List">
+  <List />
+</Boundary>
+
+<Boundary name="FetchCall">
+  <FetchCall />
 </Boundary>
