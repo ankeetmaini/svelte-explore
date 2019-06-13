@@ -3,6 +3,8 @@
   import Nested from "./Nested.svelte";
   import HTMLRenderer from "./HTMLRenderer.svelte";
   import Image from "./Image.svelte";
+  import Counter from "./Counter.svelte";
+  import ConditionalMarkup from "./ConditionalMarkup.svelte";
 
   export let name;
 </script>
@@ -25,4 +27,12 @@
 
 <Boundary name="HTMLRenderer">
   <HTMLRenderer />
+</Boundary>
+
+<Boundary name="Counter">
+  <Counter />
+</Boundary>
+
+<Boundary name="ConditionalMarkup">
+  <ConditionalMarkup />
 </Boundary>
